@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-image: url("images/back.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: white;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.task-area{
+    margin-top: 1em;
+    border: 1px solid lightgray;
+}
+
+.task-tab {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+
+.task-tab div {
+    padding: 1em;
+    cursor: pointer;
+}
+
+#underline {
+    position: absolute;
+    height: 4px;
+    width: 70px;
+    top: 54px;
+    left: 0px;
+    padding: 0px;
+    background-color: pink;
+
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.button-area button {
+    border-style: none;
+    background-color: white;
+    
+}
+
+.task-done { 
+    text-decoration: line-through;
+    color: red;
+}
